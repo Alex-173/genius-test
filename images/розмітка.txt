@@ -1,0 +1,20 @@
+1. Padding
+2. Border
+3. Margin 
+	-margin: 0 auto
+4. Box-sizing: border-box> algemeine einstellungen
+5. display :blok or inline
+6. span -за замовчування є inline.
+8. display :inline-block є зручним для роботи але рідко задається
+9. елементи схлопуються по margin і вибирається більший елемент
+10. Блоки в  батьківському елементі задаються Padding
+ 
+
+.box: first-child {}
+.box: last-child {}
+.box:not(:first-child) {}
+.box:not(:last-child) {}
+.box:nth-child(3) {} тільки третій
+.box:nth-child(3), .box:nth-child(4) {} 
+.box:nth-child(odd) {} кожний непарний елемент
+.box:nth-child(even) {} кожний парний елемент
